@@ -1,0 +1,139 @@
+{ "React": [
+    {
+      "title": "RedLeaf Stats",
+      "description": "An interactive dashboard for Canadian immigration trends using Firebase, React, and ECharts.",
+      "tags": ["React", "Firebase", "ECharts", "Recharts"],
+      "link": "https://redleafstats.com",
+      "github": "https://github.com/Gihanz/redleafstats-web",
+      "image": "redleafstats.png",
+      "date": "Feb 2025"
+    },
+    {
+      "title": "Portfolio Website",
+      "description": "My personal developer portfolio built with React and Tailwind CSS.",
+      "tags": ["React", "Tailwind"],
+      "link": "/",
+      "github": "https://github.com/Gihanz/gihan-portfolio",
+      "image": "portfolio.png",
+      "date": "Jul 2025"
+    }
+  ],
+  "IBM BAW": [
+    {
+      "title": "Account Opening Process Automation - Seylan Bank",
+      "description": "• IBM BAW, BPM, BAW ProcessCenter, Automation Anywhere RPA • JavaScript, J2EE, Core Java, CSS • Automated Account Opening (Misys), Debit Card Linking (Euronet), Internet Banking Account Creation (IB), Chequebook Ordering (CBO) • Integrated with Kapiti System",
+      "tags": ["IBM BAW", "AutomationAnywhere RPA", "JavaScript", "CSS", "Java"],
+      "image": "seylan_bank_logo.png",
+      "date": "Jan 2023"
+    },
+    {
+      "title": "CRIB Automation Process - Commercial Bank",
+      "description": "• Integrated with Credit Information Bureau of Sri Lanka CRIB data service • IBM BAW, BAW ProcessCenter •JavaScript, J2EE, Thymeleaf CRIB reports generation • AS400 database",
+      "tags": ["IBM BAW", "Java", "JavaScript", "AS400"],
+      "image": "commercial_bank_logo.png",
+      "date": "Dec 2022"
+    },
+    {
+      "title": "Workflow Automation Project - Hutch (Pvt) Ltd",
+      "description": "• Automated 13 Processes in Hutchison Telecommunication Lanka (Pvt) Ltd • IBM BAW, J2EE, Core Java • HRIS and SMS alert integration • Office 365 Actionable E-mail integration",
+      "tags": ["IBM BAW", "J2EE", "Core Java", "Javascript", "DB2"],
+      "image": "hutch_logo.png",
+      "date": "Dec 2020"
+    }
+  ],
+  "FileNet": [
+    {
+      "title": "Toyota Lanka Procurement Process Automation",
+      "description": "• Designed and developed the process with IBM Case Manager. Integrated with Toyota Lanka Inventory management system developed by IFS • IBM CaseManager 5.3.3, J2EE, Spring, BuildTool-Maven",
+      "tags": ["IBM Case Manager 5.3.3", "J2EE", "Spring"],
+      "image": "toyota_lanka_logo.png",
+      "date": "Jan 2020"
+    },
+    {
+      "title": "Bank of Ceylon Customer Data Retrieval Feature",
+      "description": "• ICN Dossier viewer feature to upload customer documents, retrieve and visualize customer details, including documents, images and signatures • Backend- IBM FileNet CPE and boc core banking system • Dojo, Bootstrap, IBM FileNet JavaScript model API",
+      "tags": ["IBM FileNet", "Dojo", "Bootstrap", "FileNet model API"],
+      "image": "boc_logo.png",
+      "date": "Apr 2019"
+    },
+    {
+      "title": "Bank of Ceylon Documents Archival Solution",
+      "description": "• Integrated Hitachi HCP object storage system with FileNet to archive documents • Technologies Used- FileNet P8 CE Java API, Hitachi HCP REST services, Core Java. •Build Tool- Maven",
+      "tags": ["FileNet P8 CE Java API", "HCP REST services"],
+      "image": "boc_logo.png",
+      "date": "Oct 2018"
+    },
+    {
+      "title": "Central Finance PLC Business Loan Process Automate",
+      "description": "• FileNet End to End Application Development • IBM P8 Content foundation, Content Navigator 2.0.3, IBM FileNet WorkplaceXT 1.1.5 • Dojo, Bootstrap, ICN Custom step processors • J2EE RESTful service, FileNet P8 Java API",
+      "tags": ["IBM P8 Content foundation", "ICN 2.0.3", "WorkplaceXT 1.1.5", "Dojo", "J2EE RESTful", "FileNet P8 Java API"],
+      "image": "cf_logo.png",
+      "date": "Apr 2018"
+    },
+    {
+      "title": "Bank of Ceylon Customer Complaint and Correspondence Management System",
+      "description": "• IBM Case Manager 5.2 and IBM FileNet P8 5.0 • IBM Cognos Real-time Monitoring • Spring Hibernate, DB2, JS, P8 java API. Build Tool- Maven • Application server- WebSphere 9.0.5 • ICN EDS plug-in development",
+      "tags": ["Case Manager 5.2", "FileNet P8 5.0", "IBM Cognos", "Spring", "Hibernate", "DB2", "JS", "P8 java API"],
+      "image": "boc_logo.png",
+      "date": "Nov 2017"
+    },
+    {
+      "title": "Bank of Ceylon Standing Order Request Management System",
+      "description": "• IBM Case Manager 5.2, Content Navigator 2.0.3, IBM FileNet P8 5.0, WorkplaceXT • FileNet CPE • IBM Cognos Real-time Monitoring • Spring Hibernate, DB2, JAXB, Ajax, jQuery, Communicator, BuildTool-Maven",
+      "tags": ["IBM Case Manager 5.2", "ICN 2.0.3", "WorkplaceXT", "FileNet CPE", "IBM Cognos", "Spring", "Hibernate", "DB2", "JAXB", "Ajax", "JQuery"],
+      "image": "boc_logo.png",
+      "date": "May 2017"
+    }
+  ],
+  "Java": [
+    {
+      "title": " Sampath Bank - COR Transfers",
+      "description": "Backend for Sampath Bank’s Vishwa Corporate portal to manage fund transfers and account transfer requests, bulk payments and other payment types",
+      "tags": ["Java 8", "Spring Boot 2.1", "RESTful Web Services", "Jenkins", "Swagger 2", "JUnit 5", "Log4j", "Maven"],
+      "image": "sampath_bank_logo.png",
+      "date": "Sep 2021"
+    },
+    {
+      "title": "Commercial Bank - CRIB app Backend Services",
+      "description": "Backend microservices services for Commercial Bank's IBM FileNet CRIB reporting application. Retrieve credit data from the Credit Information Bureau (CRIB) of Sri Lanka using their data service, store it in a local database, and generate comprehensive reports.",
+      "tags": ["Java 8", "Spring Boot", "JPA/Hibernate", "Microsoft SQL Server", "Log4j", "SpringDoc OpenAPI UI", "Docker", "Maven", "Microservice"],
+      "image": "commercial_bank_logo.png",
+      "date": "Dec 2022"
+    },
+    {
+      "title": "BOC-WebService",
+      "description": " Backend services for Bank of Ceylon IBM FileNet applications including Loan origination, Credit and Savings accounts creation, Account modification and Standing order creation.",
+      "tags": ["Java 1.6", "Spring Framework 4.0.1", "Hibernate 4.2.7", "SLF4J", "DB2", "OASIS CMIS"],
+      "image": "boc_logo.png",
+      "date": "May 2019"
+    }
+  ],
+  "PHP": [
+    {
+      "title": "Shippyfee",
+      "description": "A Web application designed to calculate shipping costs for eBay items, tailored specifically for dropshippers.",
+      "tags": ["PHP", "HTML", "CSS", "MySQL"],
+      "github": "https://github.com/Gihanz/Shippyfee",
+      "image": "shippyfee_logo.png",
+      "date": "Aug 2021"
+    },
+    {
+      "title": "AdSky",
+      "description": "Buy and sell everything from second-hand cars to mobile phones, or even find a new home. Find a great deal near you.",
+      "tags": ["PHP", "CSS", "Javascript", "HTML"],
+      "link": "https://shippyfee.com",
+      "github": "https://github.com/Gihanz/Adsky",
+      "image": "adsky_logo.png",
+      "date": "Sep 2018"
+    }
+  ],
+  "Other": [
+    {
+      "title": "Event Search Engine - Final year Research project",
+      "description": "• Extract Keywords, Train the system to cluster results, Ranking results and Search Result Visualization • Technologies Used- NLP, Java, JSP, Servlet, DataMining, PHP, Weka, OpenNLP",
+      "tags": ["NLP", "Java", "JSP", "Servlet", "DataMining", "PHP", "OpenNLP", "Weka"],
+      "image": "wartex_logo.png",
+      "date": "Dec 2015"
+    }
+  ]
+}
