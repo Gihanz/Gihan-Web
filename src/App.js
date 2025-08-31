@@ -13,7 +13,7 @@ function App() {
 
   return (
     <Router>
-      <div className="min-h-screen bg-white dark:bg-gray-900 text-gray-800 dark:text-white transition">
+      <div className="min-h-screen bg-white dark:bg-gray-800 text-gray-800 dark:text-white transition">
         <Header darkMode={darkMode} toggleDarkMode={() => setDarkMode(!darkMode)} />
         <Routes>
           <Route path="/" element={<Home />} />

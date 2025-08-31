@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { FaSun, FaCloudMoon } from "react-icons/fa";
-import logoLight from "../assets/logo-light.png";
-import logoDark from "../assets/logo-dark.png";
+import profilePic from "../assets/profile.png";
 
 export default function Header({ darkMode, toggleDarkMode }) {
   const [scrolled, setScrolled] = useState(false);
@@ -34,18 +33,26 @@ export default function Header({ darkMode, toggleDarkMode }) {
           : "bg-transparent"
       }`}
     >
-      <div className="max-w-screen-xl mx-auto px-6 py-3 flex justify-between items-center">
-        {/* Logo */}
-        <Link to="/" onClick={() => setMenuOpen(false)}>
+      <div className="max-w-screen-xl mx-auto px-6 py-3 flex items-center justify-between relative">
+        {/* Profile Image */}
+        <Link to="/" onClick={() => setMenuOpen(false)} className="flex-shrink-0">
           <img
-            src={darkMode ? logoDark : logoLight}
-            alt="Logo"
-            className="h-10 w-auto"
+            src={profilePic}
+            alt="Profile"
+            className="h-10 w-10 rounded-full border-2 border-white shadow"
           />
         </Link>
 
-        {/* Desktop Nav */}
-        <nav className="hidden md:flex gap-8 items-center font-medium text-sm">
+        {/* Centered Name */}
+        <div className="absolute left-1/2 transform -translate-x-1/2 text-center">
+          <h1 className="text-xl md:text-4xl text-gray-800 dark:text-gray-100">
+            <span className="block md:inline">Hi There,</span>
+            <span className="block md:inline">I'm Gihan Shamike..!</span>
+          </h1>
+        </div>
+
+        {/* Right Side - Dark Mode Toggle */}
+        <nav className="flex items-center font-medium text-sm">
           <button
             onClick={toggleDarkMode}
             aria-label="Toggle Dark Mode"
@@ -58,9 +65,7 @@ export default function Header({ darkMode, toggleDarkMode }) {
             )}
           </button>
         </nav>
-
       </div>
-
     </header>
   );
 }
