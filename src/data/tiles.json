@@ -77,10 +77,7 @@
       "image": "github.png",
       "colors": ["#D0B0FF", "#C06EFF", "#501DAF", "#000240"],
       "logo": "github.png"
-    }
-  ],
-
-  "Personal": [
+    },
     {
       "title": "Portfolio",
       "description": "My personal portfolio and projects showcase",
@@ -99,6 +96,5 @@
       "colors": ["#dc2626", "#26374a"], 
       "logo": "redleafstats.png"
     }
-
   ]
 }
