@@ -23,9 +23,12 @@ export default function Home() {
       {Object.entries(accounts).map(([category, items]) => (
         <div key={category} className="mb-12">
           {/* Category Heading */}
-          <h2 className="text-2xl mb-6 text-gray-800 dark:text-gray-100">
+          <div className="flex items-center gap-4 mb-6">
+          <h2 className="text-2xl text-gray-800 dark:text-gray-100 whitespace-nowrap">
             {category}
           </h2>
+          <div className="flex-grow h-px bg-gray-300 dark:bg-gray-700"></div>
+          </div>
 
           {/* Grid of Tiles */}
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
