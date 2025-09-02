@@ -45,10 +45,10 @@ export default function Header({ darkMode, toggleDarkMode }) {
 
         {/* Centered Name */}
         <div className="absolute left-1/2 transform -translate-x-1/2 text-center">
-          <h1 className="text-xl md:text-4xl text-gray-800 dark:text-gray-100">
-            <span className="block md:inline">Hi There, </span>
-            <span className="block md:inline">I'm Gihan Shamike..!</span>
-          </h1>
+          <h4 className="text-l md:text-xl text-gray-800 dark:text-gray-100">
+            <span className="block md:inline">Welcome to </span>
+            <span className="block md:inline">www.gihanl.com</span>
+          </h4>
         </div>
 
         {/* Right Side - Dark Mode Toggle */}

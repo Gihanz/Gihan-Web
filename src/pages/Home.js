@@ -7,16 +7,24 @@ export default function Home() {
   return (
     <div className="max-w-screen-xl mx-auto px-6 pt-28">
 
-        <div className="relative w-full h-72 rounded-xl overflow-hidden mb-10 shadow-lg">
+        {/* Cover Section */}
+      <div className="relative w-full h-72 sm:h-96 rounded-xl overflow-hidden mb-12 shadow-lg">
         <img
           src={coverImg}
           alt="Cover"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-black/40 flex flex-col justify-center items-center text-center px-4">
-          <h1 className="text-4xl font-bold text-white mb-2">Welcome</h1>
-          <h2 className="text-xl text-gray-200 mb-3">Developer, Freelancer & Tech Enthusiast</h2>
-          <p className="text-sm text-gray-300 max-w-xl">Software developer since 2012 and specialized in IBM BAW, IBM ECM / BPM, Filenet, IBM Case Manager.</p>
+        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent flex flex-col justify-center items-center text-center px-4">
+          <h1 className="text-3xl sm:text-5xl font-bold text-white mb-3">
+            Hi There, I'm <span className="text-yellow-400">Gihan Shamike</span> 🚀
+          </h1>
+          <h2 className="text-lg sm:text-2xl text-gray-200 mb-3">
+            Developer, Freelancer & Tech Enthusiast
+          </h2>
+          <p className="text-sm sm:text-base text-gray-300 max-w-2xl">
+            Software developer since 2012, specialized in IBM BAW, IBM ECM/BPM, FileNet, 
+            and IBM Case Manager. Passionate about building solutions that make impact.
+          </p>
         </div>
       </div>
 
