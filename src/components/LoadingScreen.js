@@ -16,7 +16,7 @@ function LoadingScreen() {
       </div>
 
       {/* Loading Text */}
-      <p className="mt-6 text-lg font-medium text-gray-700 dark:text-gray-200">
+      <p className="mt-12 text-lg font-medium text-gray-700 dark:text-gray-200">
         Loading...
       </p>
     </div>

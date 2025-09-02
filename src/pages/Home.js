@@ -5,7 +5,7 @@ import coverImg from "../assets/cover.jpg";
 export default function Home() {
 
   return (
-    <div className="max-w-screen-xl mx-auto px-6 pt-28">
+    <div className="max-w-screen-xl mx-auto px-6 pt-20">
 
         {/* Cover Section */}
       <div className="relative w-full h-72 sm:h-96 rounded-xl overflow-hidden mb-12 shadow-lg">
