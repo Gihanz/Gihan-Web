@@ -30,7 +30,7 @@ export default function Header({ darkMode, toggleDarkMode }) {
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
           ? "bg-white/80 dark:bg-gray-900/80 backdrop-blur-md shadow-md"
-          : "bg-transparent"
+          : "bg-black/5"
       }`}
     >
       <div className="max-w-screen-xl mx-auto px-6 py-3 flex items-center justify-between relative">
@@ -46,7 +46,7 @@ export default function Header({ darkMode, toggleDarkMode }) {
         {/* Centered Name */}
         <div className="absolute left-1/2 transform -translate-x-1/2 text-center">
           <h1 className="text-xl md:text-4xl text-gray-800 dark:text-gray-100">
-            <span className="block md:inline">Hi There,</span>
+            <span className="block md:inline">Hi There, </span>
             <span className="block md:inline">I'm Gihan Shamike..!</span>
           </h1>
         </div>
@@ -56,7 +56,7 @@ export default function Header({ darkMode, toggleDarkMode }) {
           <button
             onClick={toggleDarkMode}
             aria-label="Toggle Dark Mode"
-            className="ml-4 p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-700 transition"
+            className="ml-4 p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-700 transition bg-black/10"
           >
             {darkMode ? (
               <FaSun size={18} color="#facc15" />

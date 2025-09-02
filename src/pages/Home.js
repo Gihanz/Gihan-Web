@@ -5,7 +5,7 @@ import coverImg from "../assets/cover.jpg";
 export default function Home() {
 
   return (
-    <div className="max-w-screen-xl mx-auto px-6 py-20">
+    <div className="max-w-screen-xl mx-auto px-6 pt-28">
 
         <div className="relative w-full h-72 rounded-xl overflow-hidden mb-10 shadow-lg">
         <img
@@ -15,8 +15,8 @@ export default function Home() {
         />
         <div className="absolute inset-0 bg-black/40 flex flex-col justify-center items-center text-center px-4">
           <h1 className="text-4xl font-bold text-white mb-2">Welcome</h1>
-          <h2 className="text-xl text-gray-200 mb-3">Full Stack Developer & Creator</h2>
-          <p className="text-sm text-gray-300 max-w-xl">I build web and mobile apps, dashboards, and personal projects using React, Node.js, Firebase, and TailwindCSS.</p>
+          <h2 className="text-xl text-gray-200 mb-3">Developer, Freelancer & Tech Enthusiast</h2>
+          <p className="text-sm text-gray-300 max-w-xl">Software developer since 2012 and specialized in IBM BAW, IBM ECM / BPM, Filenet, IBM Case Manager.</p>
         </div>
       </div>
 

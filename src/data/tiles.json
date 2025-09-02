@@ -26,6 +26,24 @@
       "image": "linkedIn.png",
       "colors": ["#0077B5", "#00A0DC"],
       "logo": "linkedIn.png"
+    },
+    {
+      "title": "X",
+      "description": "",
+      "tags": ["Twitter", "Social"],
+      "link": "https://x.com/gihanzshamike",
+      "image": "x.png",
+      "colors": ["#000000", "#FFFFFF"],
+      "logo": "x.png"
+    },
+    {
+      "title": "Tiktok",
+      "description": "",
+      "tags": ["Content", "Videos"],
+      "link": "https://www.tiktok.com/@gihanshamike",
+      "image": "tiktok.png",
+      "colors": ["#FE2C55", "#25F4EE", "#000000"],
+      "logo": "tiktok.png"
     }
   ],
 
