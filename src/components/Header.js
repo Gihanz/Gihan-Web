@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { FaSun, FaCloudMoon } from "react-icons/fa";
-import profilePic from "../assets/profile.png";
+import logoLight from "../assets/logo-light.png";
+import logoDark from "../assets/logo-dark.png";
 
 export default function Header({ darkMode, toggleDarkMode }) {
   const [scrolled, setScrolled] = useState(false);
@@ -37,17 +38,17 @@ export default function Header({ darkMode, toggleDarkMode }) {
         {/* Profile Image */}
         <Link to="/" onClick={() => setMenuOpen(false)} className="flex-shrink-0">
           <img
-            src={profilePic}
+            src={darkMode ? logoDark : logoLight}
             alt="Profile"
-            className="h-10 w-10 rounded-full border-2 border-white shadow"
+            className="h-10 w-10"
           />
         </Link>
 
         {/* Centered Name */}
         <div className="absolute left-1/2 transform -translate-x-1/2 text-center">
-          <h4 className="text-l md:text-xl text-gray-800 dark:text-gray-100">
-            <span className="block md:inline">Welcome to </span>
-            <span className="block md:inline">www.gihanl.com</span>
+          <h4 className="text-sm sm:text-base text-gray-600 dark:text-gray-400">
+            <span className="block md:inline">Hi There, Welcome to </span>
+            <span className="block md:inline">My Profile!</span>
           </h4>
         </div>
 

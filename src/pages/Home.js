@@ -1,31 +1,48 @@
 import React from "react";
 import accounts from "../data/tiles.json";
 import coverImg from "../assets/cover.jpg";
+import profileImg from "../assets/profile.png";
 
 export default function Home() {
 
   return (
-    <div className="max-w-screen-xl mx-auto px-6 pt-20">
+    <div className="max-w-screen-xl mx-auto px-6 pt-16">
+
+      {/* Cover + Profile Wrapper */}
+      <div className="relative mb-28">
 
         {/* Cover Section */}
-      <div className="relative w-full h-72 sm:h-96 rounded-xl overflow-hidden mb-12 shadow-lg">
-        <img
-          src={coverImg}
-          alt="Cover"
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent flex flex-col justify-center items-center text-center px-4">
-          <h1 className="text-3xl sm:text-5xl font-bold text-white mb-3">
-            Hi There, I'm <span className="text-yellow-400">Gihan Shamike</span> 🚀
-          </h1>
-          <h2 className="text-lg sm:text-2xl text-gray-200 mb-3">
-            Developer, Freelancer & Tech Enthusiast
-          </h2>
-          <p className="text-sm sm:text-base text-gray-300 max-w-2xl">
-            Software developer since 2012, specialized in IBM BAW, IBM ECM/BPM, FileNet, 
-            and IBM Case Manager. Passionate about building solutions that make impact.
-          </p>
+        <div className="relative w-full h-72 sm:h-96 rounded-xl overflow-hidden shadow-lg">
+          <img
+            src={coverImg}
+            alt="Cover"
+            className="w-full h-full object-cover"
+          />
+
+          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent" />
         </div>
+
+        {/* Profile Row */}
+        <div className="absolute left-6 sm:left-10 bottom-0 translate-y-[50%] z-20 flex items-center gap-5">
+          
+          {/* Profile Image */}
+          <img
+            src={profileImg}
+            alt="Profile"
+            className="w-28 h-28 sm:w-44 sm:h-44 rounded-full border-4 border-white dark:border-gray-900 shadow-xl object-cover bg-white"
+          />
+
+          {/* Name + subtitle */}
+          <div className="mt-20">
+            <h1 className="text-2xl sm:text-3xl font-bold text-black dark:text-white">
+              Gihan Shamike Liyanage
+            </h1>
+            <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400">
+              Developer · Freelancer · Tech Enthusiast
+            </p>
+          </div>
+        </div>
+
       </div>
 
       {Object.entries(accounts).map(([category, items]) => (
