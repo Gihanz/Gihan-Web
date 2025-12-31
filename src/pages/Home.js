@@ -29,12 +29,12 @@ export default function Home() {
           <img
             src={profileImg}
             alt="Profile"
-            className="w-28 h-28 sm:w-44 sm:h-44 rounded-full border-4 border-white dark:border-gray-900 shadow-xl object-cover bg-white"
+            className="w-[10rem] h-[10rem] sm:w-44 sm:h-44 rounded-full border-4 border-white dark:border-gray-900 shadow-xl object-cover bg-white"
           />
 
           {/* Name + subtitle */}
-          <div className="mt-20">
-            <h1 className="text-2xl sm:text-3xl font-bold text-black dark:text-white">
+          <div className="mt-[7rem] md:mt-20">
+            <h1 className="text-xl sm:text-3xl font-bold text-black dark:text-white">
               Gihan Shamike Liyanage
             </h1>
             <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400">
@@ -49,7 +49,7 @@ export default function Home() {
         <div key={category} className="mb-12">
           {/* Category Heading */}
           <div className="flex items-center gap-4 mb-6">
-          <h2 className="text-2xl text-gray-800 dark:text-gray-100 whitespace-nowrap">
+          <h2 className="text-base sm:text-2xl text-gray-800 dark:text-gray-100 whitespace-nowrap">
             {category}
           </h2>
           <div className="flex-grow h-px bg-gray-300 dark:bg-gray-700"></div>
