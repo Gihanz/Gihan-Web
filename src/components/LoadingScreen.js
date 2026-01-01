@@ -6,13 +6,13 @@ function LoadingScreen() {
       <div className="relative flex items-center justify-center">
         {/* Profile Image */}
         <img
-          src="favicon.ico" // replace with your profile image path
+          src="gs_loading.gif" // replace with your profile image path
           alt="Profile"
           className="h-24 w-24 rounded-full object-cover z-10"
         />
 
         {/* Spinning Ring */}
-        <div className="absolute animate-spin rounded-full h-32 w-32 border-4 border-blue-500 border-t-transparent"></div>
+        <div className="absolute animate-spin rounded-full h-32 w-32 border-4 border-gray-500 border-t-transparent"></div>
       </div>
 
       {/* Loading Text */}
